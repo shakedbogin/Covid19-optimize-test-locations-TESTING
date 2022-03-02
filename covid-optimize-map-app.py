@@ -21,7 +21,7 @@ myfile = requests.get(url)
 
 df=pd.read_excel(myfile.content,index_col=0)
 
-df = pd.read_excel('./distance-matrix-TEST.xlsx',index_col=0)
+# df = pd.read_excel('./distance-matrix-TEST.xlsx',index_col=0)
 # df =  df.reset_index(drop=True)
 
 st.write('# bla')
