@@ -16,7 +16,7 @@ import streamlit as st
 
 import requests
 
-url= 'https://github.com/shakedbogin/covid-optimize-map/edit/main/distance-matrix-TEST.xlsx'
+url= 'https://github.com/shakedbogin/covid-optimize-map/blob/83c28e5f5a5bc3a7b01771451a160a376680e64b/distance-matrix-TEST.xlsx'
 # myfile = requests.get(url)
 myfile = xlsx.File(requests.get(url).body)
 
