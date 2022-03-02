@@ -17,7 +17,8 @@ import streamlit as st
 import requests
 
 url= 'https://github.com/shakedbogin/covid-optimize-map/edit/main/distance-matrix-TEST.xlsx'
-myfile = requests.get(url)
+# myfile = requests.get(url)
+myfile = xlsx.File(requests.get(url).body)
 
 df=pd.read_excel(myfile.content,index_col=0)
 
