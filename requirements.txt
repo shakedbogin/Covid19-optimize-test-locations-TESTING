@@ -11,4 +11,3 @@ pyxlsb==1.0.9
 bytesbufio==1.0.3
 
 openpyxl==3.0.9
-git clone https://github.com/matplotlib/matplotlib.git
