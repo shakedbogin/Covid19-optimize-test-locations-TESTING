@@ -15,7 +15,7 @@ import timeit
 import streamlit as st
 
 
-df = pd.read_excel(r'distance-matrix-TEST.xlsx',index_col=0)
+df = pd.read_excel('./distance-matrix-TEST.xlsx',index_col=0)
 df =  df.reset_index(drop=True)
 
 
