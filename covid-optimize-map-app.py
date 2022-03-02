@@ -1,4 +1,4 @@
-!pip install PuLP
+#!pip install PuLP
 
 from pulp import *
 import pandas as pd
