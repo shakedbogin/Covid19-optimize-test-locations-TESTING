@@ -11,4 +11,4 @@ pyxlsb==1.0.9
 bytesbufio==1.0.3
 
 openpyxl==3.0.9
-matplotlib @ file:///C:/ci/matplotlib-suite_1613408055530/work
+git clone https://github.com/matplotlib/matplotlib.git
