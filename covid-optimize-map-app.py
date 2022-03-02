@@ -1,3 +1,5 @@
+!pip install PuLP
+
 from pulp import *
 import pandas as pd
 import numpy as np
