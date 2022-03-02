@@ -24,9 +24,7 @@ st.write('### bla')
 st.write('bla')
 st.markdown('#')  
 
-
- st.markdown('#')  
- st.write('### View samples of the data you uploaded')
- st.dataframe(df.head(),3000,500)
+st.write('### View samples of the data you uploaded')
+st.dataframe(df.head(),3000,500)
 
 
