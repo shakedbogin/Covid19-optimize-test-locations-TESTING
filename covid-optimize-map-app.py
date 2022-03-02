@@ -10,7 +10,6 @@ import folium
 import math
 import pickle
 from IPython.display import Image
-import matplotlib.pyplot as plt
 import datetime 
 import timeit
 import streamlit as st
